@@ -125,9 +125,9 @@ body {
 }
 
 #profileinfo .follow:hover {
-  
+
   cursor: pointer;
-  
+
 }
 
 #profileinfo .login {
@@ -196,7 +196,7 @@ body {
 }
 
 .col:hover .overlay {
-
+  transition: 0.5s;
   opacity: 1;
 
 }

@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Titillium+Web');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Titillium Web', sans-serif;
+}
+
+#header {
+  width:100%;
+  height: 77px;
+  border-bottom: 1px solid rgb(230,230,230);
+  margin-bottom: 30px;
+}
+
+#header .container {
+  max-height: 77px;
+
+}
+
+#header .container  {
+  height: 77px;
+  max-width: 870px;
+}
+
+#header .container  .logos {
+  float: left;
+}
+
+#header .container  .btns {
+  float: right;
+}
+
+#header .container  ul li {
+  list-style-type: none;
+  display: inline;
+  padding-left: 0;
+}
+
+#header ul {
+  margin: 0;
+  padding: 0;
+  padding-top: 26px;
+}
+
+#header .logos {
+  padding-top: 23px;
+}
+
+#header .logos .logocon {
+  padding-right: 5px;
+  height: 35px;
+  border-right: 1px solid rgb(146,146,146);
+}
+
+#header .logos .logotext {
+  height: 35px;
+  margin-left: 5px;
+}
+
+#header .container  .btns li {
+  padding:  5px;
+}
+
+#header .container .gettheapp:hover {
+  cursor:pointer;
+}
+
+#header .container .btns a {
+  color: rgb(56, 151, 240);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#header .container .btns .gettheapp {
+  padding: 0px 16px;
+  height: 34px;
+  background-color: rgb(56, 151, 240);
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+#header .container  .btns li:last-child {
+  border-left: 1px solid rgb(201, 201, 201);
+  padding-left: 7px;
+}
+
+#profileinfo {
+  max-width: 770px;
+  padding: 30px 0;
+  /*background: yellow;*/
+  display: flex;
+}
+
+#profileinfo .profilephoto {
+  flex: 1;
+}
+
+#profileinfo .profilephoto img{
+  border-radius: 50%;
+  height: 152px;
+  margin-left: 40px;
+}
+
+#profileinfo .nameinfo {
+  flex: 1.8;
+  /*background: red;*/
+}
+
+
+
+#profileinfo .follow {
+  margin-left: 10px;
+  padding: 0px 16px;
+  height: 34px;
+  background-color: rgb(56, 151, 240);
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+#profileinfo .login {
+  font-size: 24px;
+
+}
+
+#profileinfo .postfollowers ul {
+  display: block;
+  padding-left: 0;
+}
+
+#profileinfo .postfollowers li{
+  list-style-type: none;
+  display: inline;
+  padding-left: 30px;
+}
+
+#profileinfo .postfollowers li:first-child {
+  padding-left: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+  margin: 15px;
+  position: relative;
+
+}
+
+.col img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 400px) {
+  .row {
+    display: block;
+  }
+
+  .col {
+    padding: 0;
+  }
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(87, 87, 87, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+}
+
+.col:hover .overlay {
+
+  opacity: 1;
+
+}

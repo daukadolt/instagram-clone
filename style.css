@@ -21,14 +21,37 @@ body {
 #header .container  {
   height: 77px;
   max-width: 870px;
+  display: flex;
 }
 
 #header .container  .logos {
-  float: left;
+  flex: 1;
+  /*float: left;*/
+}
+
+#header .search {
+  flex:1;
+  padding-top: 30px;
+}
+
+#header .search input {
+  display: block;
+  margin: 0 auto;
+  width: 199px;
+  height: 12px;
+  border: 1px solid rgb(219, 219, 219);
+  padding: 7px 7px;
+  text-align: center;
+  background: rgb(250, 250, 250);
+  border-radius: 3px;
+  font-size: 14px;
+  color: rgb(165, 165, 165)
 }
 
 #header .container  .btns {
-  float: right;
+  flex: 1;
+  /*float: right;*/
+  padding-top: 23px;
 }
 
 #header .container  ul li {
@@ -40,7 +63,7 @@ body {
 #header ul {
   margin: 0;
   padding: 0;
-  padding-top: 26px;
+  /*padding-top: 26px;*/
 }
 
 #header .logos {
@@ -48,7 +71,7 @@ body {
 }
 
 #header .logos .logocon {
-  padding-right: 5px;
+  padding-right: 15px;
   height: 35px;
   border-right: 1px solid rgb(146,146,146);
 }

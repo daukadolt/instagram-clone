@@ -1,0 +1,3 @@
+[submodule "misc/krackattacks"]
+	path = misc/krackattacks
+	url = https://github.com/vanhoefm/krackattacks.git
